@@ -17,6 +17,7 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.HAZARD_BLOCK.get())).title(Component.translatable("creativemode_factory_tab")).displayItems(
              (Parameters, Output) -> {
                  Output.accept(ModBlocks.HAZARD_BLOCK.get());
+                 Output.accept(ModBlocks.ORANGE_HAZARD_BLOCK.get());
              }
             ).build());
 

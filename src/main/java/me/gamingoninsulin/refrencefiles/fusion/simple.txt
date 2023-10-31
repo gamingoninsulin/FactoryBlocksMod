@@ -1,0 +1,11 @@
+{
+   "fusion": {
+      "type": "connecting",
+      "layout": "simple"
+   }
+}
+
+16 images
+square
+
+https://github.com/SuperMartijn642/Fusion/wiki

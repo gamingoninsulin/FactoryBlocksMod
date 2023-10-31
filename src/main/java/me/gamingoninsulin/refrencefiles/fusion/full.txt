@@ -1,0 +1,11 @@
+{
+   "fusion": {
+      "type": "connecting",
+      "layout": "full"
+   }
+}
+
+47 images
+128x128
+
+https://github.com/SuperMartijn642/Fusion/wiki

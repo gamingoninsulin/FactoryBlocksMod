@@ -18,6 +18,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.HAZARD_BLOCK.get());
+        this.dropSelf(ModBlocks.ORANGE_HAZARD_BLOCK.get());
     }
 
     @Override

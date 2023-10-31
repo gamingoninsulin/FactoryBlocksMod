@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "factoryblock:hazard_block"
+    "factoryblocks:hazard_block"
+    "factoryblocks:orange_hazard_block"
   ]
 }

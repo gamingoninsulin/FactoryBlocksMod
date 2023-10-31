@@ -1,5 +1,6 @@
 {
-  "block.factoryblocks.hazard_block": "Hazard Block",
+  "block.factoryblocks.hazard_block": "Yellow Hazard Block",
+  "block.factoryblocks.orange_hazard_block": "Orange Hazard Block",
 
   "creativemode_factory_tab": "Factory Tab"
 }
