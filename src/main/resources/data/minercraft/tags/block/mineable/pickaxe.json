@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "factoryblocks:hazard_block"
-    "factoryblocks:orange_hazard_block"
+    "factoryblocks:hazard_block",
+    "factoryblocks:orange_hazard_block",
+    "factoryblocks:clear_glass"
   ]
 }

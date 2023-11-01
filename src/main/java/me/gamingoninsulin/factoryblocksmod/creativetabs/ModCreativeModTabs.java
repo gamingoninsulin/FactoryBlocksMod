@@ -18,6 +18,8 @@ public class ModCreativeModTabs {
              (Parameters, Output) -> {
                  Output.accept(ModBlocks.HAZARD_BLOCK.get());
                  Output.accept(ModBlocks.ORANGE_HAZARD_BLOCK.get());
+
+                 Output.accept(ModBlocks.CLEAR_GLASS.get());
              }
             ).build());
 

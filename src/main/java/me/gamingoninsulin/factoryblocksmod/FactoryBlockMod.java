@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import me.gamingoninsulin.factoryblocksmod.block.ModBlocks;
 import me.gamingoninsulin.factoryblocksmod.creativetabs.ModCreativeModTabs;
 import me.gamingoninsulin.factoryblocksmod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,9 +34,11 @@ public class FactoryBlockMod {
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
+
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
+
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 

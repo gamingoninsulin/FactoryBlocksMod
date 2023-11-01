@@ -19,6 +19,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockItem(ModBlocks.HAZARD_BLOCK);
         blockItem(ModBlocks.ORANGE_HAZARD_BLOCK);
+        blockItem(ModBlocks.CLEAR_GLASS);
     }
 
 

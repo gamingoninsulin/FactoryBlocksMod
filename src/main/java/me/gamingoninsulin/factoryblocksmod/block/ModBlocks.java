@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -31,6 +32,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> ORANGE_HAZARD_BLOCK = registerBlock("orange_hazard_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+
+    public static final RegistryObject<Block> CLEAR_GLASS = registerBlock("clear_glass",
+            () -> new GlassBlock(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).strength(0.3F).sound(SoundType.GLASS).noOcclusion()));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

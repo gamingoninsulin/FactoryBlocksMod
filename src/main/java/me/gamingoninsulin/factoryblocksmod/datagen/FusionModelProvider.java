@@ -15,23 +15,32 @@ public class FusionModelProvider extends com.supermartijn642.fusion.api.provider
 
     @Override
     protected void generate() {
-        var modelData1 = ConnectingModelDataBuilder.builder()
+        var modelDataYHazard = ConnectingModelDataBuilder.builder()
                 .parent(new ResourceLocation("minecraft", "block/cube_all"))
                 .texture("all", new ResourceLocation("factoryblocks", "block/hazard_block"))
                 .connection(DefaultConnectionPredicates.isSameBlock())
                 .build();
-        var modelInstance1 = ModelInstance.of(DefaultModelTypes.CONNECTING, modelData1);
-        this.addModel(new ResourceLocation("factoryblocks", "block/hazard_block"), modelInstance1);
+        var modelInstanceYHazard = ModelInstance.of(DefaultModelTypes.CONNECTING, modelDataYHazard);
+        this.addModel(new ResourceLocation("factoryblocks", "block/hazard_block"), modelInstanceYHazard);
 
-        var modelData2 = ConnectingModelDataBuilder.builder()
+
+
+        var modelDataOHazard = ConnectingModelDataBuilder.builder()
                 .parent(new ResourceLocation("minecraft", "block/cube_all"))
                 .texture("all", new ResourceLocation("factoryblocks", "block/orange_hazard_block"))
                 .connection(DefaultConnectionPredicates.isSameBlock())
                 .build();
-        var modelInstance2 = ModelInstance.of(DefaultModelTypes.CONNECTING, modelData2);
-        this.addModel(new ResourceLocation("factoryblocks", "block/orange_hazard_block"), modelInstance2);
+        var modelInstanceOHazard = ModelInstance.of(DefaultModelTypes.CONNECTING, modelDataOHazard);
+        this.addModel(new ResourceLocation("factoryblocks", "block/orange_hazard_block"), modelInstanceOHazard);
 
 
 
+        var modelDataCGlass = ConnectingModelDataBuilder.builder()
+                .parent(new ResourceLocation("minecraft", "block/cube_all"))
+                .texture("all", new ResourceLocation("factoryblocks", "block/clear_glass"))
+                .connection(DefaultConnectionPredicates.isSameBlock())
+                .build();
+        var modelInstanceCGlass = ModelInstance.of(DefaultModelTypes.CONNECTING, modelDataCGlass);
+        this.addModel(new ResourceLocation("factoryblocks", "block/clear_glass"), modelInstanceCGlass);
     }
 }
