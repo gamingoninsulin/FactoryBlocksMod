@@ -4,10 +4,7 @@ import me.gamingoninsulin.factoryblocksmod.FactoryBlockMod;
 import me.gamingoninsulin.factoryblocksmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.GlassBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -76,7 +73,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
     public static final RegistryObject<Block> INDUSTRIAL_IRON_PILLAR = registerBlock("industrial_iron_pillar",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
     public static final RegistryObject<Block> RUSTY_METAL_PLATING = registerBlock("rusty_sheet_metal_paneling",
@@ -84,11 +81,11 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
     public static final RegistryObject<Block> WRAPPED_GOLD_CHAINS = registerBlock("wrapped_gold_chains",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.GOLD).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.GOLD).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
     public static final RegistryObject<Block> WRAPPED_CHAINS = registerBlock("wrapped_chains",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
 

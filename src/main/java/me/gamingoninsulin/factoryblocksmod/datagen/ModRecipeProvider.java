@@ -1,6 +1,7 @@
 package me.gamingoninsulin.factoryblocksmod.datagen;
 
 import me.gamingoninsulin.factoryblocksmod.block.ModBlocks;
+import net.minecraft.advancements.Criterion;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
@@ -19,10 +20,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> writer) {
-
-//        SingleItemRecipeBuilder builder = SingleItemRecipeBuilder.stonecutting(Blocks.IRON_BLOCK, RecipeCategory.MISC, ModBlocks.HAZARD_BLOCK)
-//                .unlockedBy("criteria", "criteria")// How the recipe is unlocked
-//                .group("factory")
-//                .save(writer); // Add data to builder
+                                                                                // input               // output
+//        SingleItemRecipeBuilder builder = SingleItemRecipeBuilder.stonecutting(Blocks.IRON_BLOCK, RecipeCategory.MISC, ModBlocks.YELLOW_HAZARD_BLOCK)
+//                .unlockedBy("criteria", Blocks.IRON_BLOCK)// How the recipe is unlocked
+//                .save(writer);
     }
 }
