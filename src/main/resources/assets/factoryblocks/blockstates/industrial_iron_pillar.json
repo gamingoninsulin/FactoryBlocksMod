@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "factoryblocks:block/industrial_iron_pilar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "factoryblocks:block/industrial_iron_pilar"
+    },
+    "axis=z": {
+      "model": "factoryblocks:block/industrial_iron_pilar",
+      "x": 90
+    }
+  }
+}

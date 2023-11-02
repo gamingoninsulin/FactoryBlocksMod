@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "factoryblocks:yellow_hazard_block"
+  },
+  "result": "minecraft:iron_block",
+  "group": "factory",
+  "count": 1
+}

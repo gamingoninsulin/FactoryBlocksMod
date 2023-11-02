@@ -15,32 +15,25 @@ public class FusionModelProvider extends com.supermartijn642.fusion.api.provider
 
     @Override
     protected void generate() {
-        var modelDataYHazard = ConnectingModelDataBuilder.builder()
+
+        // metal block
+        var modelData_1 = ConnectingModelDataBuilder.builder()
                 .parent(new ResourceLocation("minecraft", "block/cube_all"))
-                .texture("all", new ResourceLocation("factoryblocks", "block/hazard_block"))
+                .texture("all", new ResourceLocation("factoryblocks", "block/yellow_hazard_block"))
                 .connection(DefaultConnectionPredicates.isSameBlock())
                 .build();
-        var modelInstanceYHazard = ModelInstance.of(DefaultModelTypes.CONNECTING, modelDataYHazard);
-        this.addModel(new ResourceLocation("factoryblocks", "block/hazard_block"), modelInstanceYHazard);
+        var instanceHazard_1 = ModelInstance.of(DefaultModelTypes.CONNECTING, modelData_1);
+        this.addModel(new ResourceLocation("factoryblocks", "block/yellow_hazard_block"), instanceHazard_1);
 
-
-
-        var modelDataOHazard = ConnectingModelDataBuilder.builder()
+        var modelData_2 = ConnectingModelDataBuilder.builder()
                 .parent(new ResourceLocation("minecraft", "block/cube_all"))
                 .texture("all", new ResourceLocation("factoryblocks", "block/orange_hazard_block"))
                 .connection(DefaultConnectionPredicates.isSameBlock())
                 .build();
-        var modelInstanceOHazard = ModelInstance.of(DefaultModelTypes.CONNECTING, modelDataOHazard);
-        this.addModel(new ResourceLocation("factoryblocks", "block/orange_hazard_block"), modelInstanceOHazard);
+        var modelInstance_2 = ModelInstance.of(DefaultModelTypes.CONNECTING, modelData_2);
+        this.addModel(new ResourceLocation("factoryblocks", "block/orange_hazard_block"), modelInstance_2);
 
+        // gold
 
-
-        var modelDataCGlass = ConnectingModelDataBuilder.builder()
-                .parent(new ResourceLocation("minecraft", "block/cube_all"))
-                .texture("all", new ResourceLocation("factoryblocks", "block/clear_glass"))
-                .connection(DefaultConnectionPredicates.isSameBlock())
-                .build();
-        var modelInstanceCGlass = ModelInstance.of(DefaultModelTypes.CONNECTING, modelDataCGlass);
-        this.addModel(new ResourceLocation("factoryblocks", "block/clear_glass"), modelInstanceCGlass);
     }
 }

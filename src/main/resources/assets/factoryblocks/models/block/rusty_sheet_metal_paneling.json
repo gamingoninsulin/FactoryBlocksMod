@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "factoryblocks:block/rusty_sheet_metal_paneling"
+  }
+}

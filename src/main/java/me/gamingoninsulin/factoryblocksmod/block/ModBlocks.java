@@ -24,8 +24,10 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, FactoryBlockMod.MODID);
 
 
+    // ############################################################################################################## \\
 
-    public static final RegistryObject<Block> HAZARD_BLOCK = registerBlock("hazard_block",
+
+    public static final RegistryObject<Block> YELLOW_HAZARD_BLOCK = registerBlock("yellow_hazard_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
@@ -33,10 +35,64 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
+    public static final RegistryObject<Block> RUSTY_BLOCK_1 = registerBlock("rusty_block_1",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
-    public static final RegistryObject<Block> CLEAR_GLASS = registerBlock("clear_glass",
-            () -> new GlassBlock(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).strength(0.3F).sound(SoundType.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> RUSTY_BLOCK_2 = registerBlock("rusty_block_2",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
 
+    public static final RegistryObject<Block> PLATEX_BLOCK_1 = registerBlock("platex_block_1",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> METAL_BLOCK_1 = registerBlock("metal_block_1",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> METAL_BLOCK_2 = registerBlock("metal_block_2",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> METAL_BLOCK_3 = registerBlock("metal_block_3",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> METAL_BLOCK_4 = registerBlock("metal_block_4",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> GOLD_BLOCK_1 = registerBlock("gold_block_1",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.GOLD).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> GOLD_BLOCK_2 = registerBlock("gold_block_2",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.GOLD).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> INDUSTRIAL_IRON_BLOCK = registerBlock("industrial_iron_block",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> INDUSTRIAL_IRON_PILLAR = registerBlock("industrial_iron_pillar",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> RUSTY_METAL_PLATING = registerBlock("rusty_sheet_metal_paneling",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> WRAPPED_GOLD_CHAINS = registerBlock("wrapped_gold_chains",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.GOLD).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final RegistryObject<Block> WRAPPED_CHAINS = registerBlock("wrapped_chains",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.NETHERITE_BLOCK)));
+
+
+    // ############################################################################################################## \\
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

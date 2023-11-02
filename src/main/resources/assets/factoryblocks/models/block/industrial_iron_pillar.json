@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "factoryblocks:block/bolted_industrial_iron",
+    "side": "factoryblocks:block/industrial_iron_pillar"
+  }
+}

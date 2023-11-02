@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "factoryblocks:rusty_sheet_metal_paneling"
+  },
+  "result": "minecraft:iron_block",
+  "group": "factory",
+  "count": 1
+}

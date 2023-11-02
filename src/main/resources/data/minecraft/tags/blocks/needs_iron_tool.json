@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "factoryblocks:yellow_hazard_block",
+    "factoryblocks:orange_hazard_block",
+    "factoryblocks:gold_block_1",
+    "factoryblocks:gold_block_2",
+    "factoryblocks:metal_block_1",
+    "factoryblocks:metal_block_2",
+    "factoryblocks:metal_block_3",
+    "factoryblocks:metal_block_4",
+    "factoryblocks:platex_block_1",
+    "factoryblocks:rusty_block_1",
+    "factoryblocks:rusty_block_2"
+    "factoryblocks:wrapped_chains",
+    "factoryblocks:wrapped_gold_chains",
+    "factoryblocks:industrial_iron_pillar",
+    "factoryblocks:rusty_sheet_metal_paneling",
+    "factoryblocks:industrial_iron_block"
+  ]
+}

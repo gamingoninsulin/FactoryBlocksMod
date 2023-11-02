@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": "factoryblocks:platex_block_1",
+  "group": "factory",
+  "count": 1
+}

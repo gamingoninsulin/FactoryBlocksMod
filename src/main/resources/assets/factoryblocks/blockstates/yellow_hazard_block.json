@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "factoryblocks:block/yellow_hazard_block"
+    }
+  }
+}

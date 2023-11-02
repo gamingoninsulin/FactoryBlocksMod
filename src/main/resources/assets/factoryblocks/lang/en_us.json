@@ -1,7 +1,21 @@
 {
-  "block.factoryblocks.hazard_block": "Yellow Hazard Block",
+  "block.factoryblocks.yellow_hazard_block": "Yellow Hazard Block",
   "block.factoryblocks.orange_hazard_block": "Orange Hazard Block",
-  "block.factoryblocks.clear_glass": "Clear Glass Block",
+  "block.factoryblocks.gold_block_1": "Industrial Gold Plate Block",
+  "block.factoryblocks.gold_block_2": "Industrial Gold Mesh Block",
+  "block.factoryblocks.metal_block_1": "Industrial Metal Plate Block",
+  "block.factoryblocks.metal_block_2": "Industrial Metal Machine Block",
+  "block.factoryblocks.metal_block_3": "Industrial Metal Frame Block",
+  "block.factoryblocks.metal_block_4": "Industrial Metal Mosaic Block",
+  "block.factoryblocks.platex_block_1": "Industrial Metal Platex Block",
+  "block.factoryblocks.rusty_block_1": "Industrial Light Rusty Screw Block",
+  "block.factoryblocks.rusty_block_2": "Industrial Dark Rusty Screw Block",
+
+  "block.factoryblocks.industrial_iron_block": "Industrial Iron Block",
+  "block.factoryblocks.industrial_iron_pillar": "Industrial Iron Pillar",
+  "block.factoryblocks.rusty_sheet_metal_paneling": "Industrial Rusty Sheet Metal Block",
+  "block.factoryblocks.wrapped_gold_chains": "Wrapped Gold Chains",
+  "block.factoryblocks.wrapped_chains": "Wrapped Chains",
 
   "creativemode_factory_tab": "Factory Tab"
 }
