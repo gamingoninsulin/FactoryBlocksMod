@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "factoryblocks:rusty_block_2"
+  },
+  "result": "minecraft:iron_block"
+}

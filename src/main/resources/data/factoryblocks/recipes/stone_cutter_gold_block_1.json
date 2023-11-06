@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:gold_block"
-  },
-  "result": "factoryblocks:gold_block_1",
-  "group": "factory",
-  "count": 1
-}

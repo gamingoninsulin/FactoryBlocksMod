@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:gold_block"
-  },
-  "result": "factoryblocks:wrapped_gold_chains",
-  "group": "factory",
-  "count": 1
-}

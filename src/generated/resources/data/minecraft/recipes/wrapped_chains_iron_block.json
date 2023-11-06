@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "factoryblocks:wrapped_chains"
+  },
+  "result": "minecraft:iron_block"
+}

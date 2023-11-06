@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "factoryblocks:orange_hazard_block"
+  },
+  "result": "minecraft:iron_block"
+}
